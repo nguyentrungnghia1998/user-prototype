@@ -1,0 +1,55 @@
+.col:first-child{
+    text-align: right;
+    margin-right: 30px;
+}
+.col:last-child{
+    text-align: left;
+    margin-left: 30px;
+}
+.value {
+    color: #FFCC63;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.vr{
+    padding: 0 !important;
+}
+// .number-genes-container{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin: 30px auto;
+//     .genes-box{
+//         position: relative;
+//         width: 170px;
+//         height: 75px;
+//         left: 0px;
+        
+//         font-family: 'Inter';
+//         font-style: normal;
+//         font-weight: 600;
+//         font-size: 48px;
+//         line-height: 58px;
+//         display: flex;
+//         align-items: center;
+//         text-align: right;
+//         color: #FFCC63;
+//     }
+//     .variants-box{
+//         position: relative;
+//         width: 170px;
+//         height: 75px;
+//         left: 180px;
+        
+//         font-family: 'Inter';
+//         font-style: normal;
+//         font-weight: 600;
+//         font-size: 48px;
+//         line-height: 58px;
+//         display: flex;
+//         align-items: center;
+        
+//         color: #FFCC63;
+//     }
+// }
