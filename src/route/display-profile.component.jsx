@@ -27,9 +27,42 @@ const DisplayProfile = () => {
             <strong>{gens-gens_had} genes</strong> and <strong>{variants-variants_had} variants</strong> more are available for you 
             to discover the misteries of your genome. For details about all packages we offer, <strong>click here.</strong>
             </p>
-            <h2 className={`profile-type`}>
-            Achievements
-            </h2>
+            <div className="Achievements-container">
+            <div class="row">
+                <div class="col">
+                    Achievements
+                </div>
+                <div class="col">
+                    <button type="button">more</button>
+                </div>
+            </div>   
+            </div>     
+            <div class="row">
+                <div class="col">
+                    Coming soon
+                </div>
+                <div class="col">
+                    Coming soon
+                </div>
+                <div class="col">
+                    Coming soon
+                </div>
+                <div class="col">
+                    Coming soon
+                </div>
+                <div class="col">
+                    Coming soon
+                </div>
+                <div class="col">
+                    Coming soon
+                </div>
+                <div class="col">
+                    Coming soon
+                </div>
+                <div class="col">
+                    Coming soon
+                </div>
+            </div>   
         </div>
     )
 }

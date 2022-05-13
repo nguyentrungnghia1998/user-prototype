@@ -17,4 +17,25 @@
     .paragraph {
         font-size: 16px;
     }
+    .Achievements-container{
+        .col:first-child{
+            text-align: left;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 26px;
+        }
+        .col:last-child{
+            text-align: right;
+            button{
+                // height: 23px;
+                // width: 55px;
+                box-sizing: border-box;
+                background: #FFFFFF;
+                border: 1px solid #FFCC63;
+                border-radius: 10px;
+                text-align: center;
+            }
+        }
+    }
 }

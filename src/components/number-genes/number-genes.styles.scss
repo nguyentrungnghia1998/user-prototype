@@ -1,18 +1,18 @@
-.col:first-child{
+.number-genes-container .col:first-child{
     text-align: right;
     margin-right: 30px;
 }
-.col:last-child{
+.number-genes-container .col:last-child{
     text-align: left;
     margin-left: 30px;
 }
-.value {
+.number-genes-container .value {
     color: #FFCC63;
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 0;
 }
-.vr{
+.number-genes-container .vr{
     padding: 0 !important;
 }
 // .number-genes-container{
