@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import DisplayProfile from './route/display-profile.component';
 import "../node_modules/bootstrap/scss/bootstrap.scss"
+import GeneralInfo from './components/general-info/general-info.component';
 
 const database = {
   name: 'Nghia',
@@ -10,7 +10,7 @@ const database = {
 
 const App = () => {
   return (
-    <DisplayProfile />
+    <GeneralInfo/>
   )
 }
 

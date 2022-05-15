@@ -1,14 +1,6 @@
-import NumberGenes from '../components/number-genes/number-genes.component'
+import NumberGenes from '../number-genes/number-genes.component'
 import './display-profile.styles.scss'
-const profile = {
-    name: 'Trang',
-    typeofprofile: 'Standard',
-    gens: 1000,
-    variants: 100000,
-    gens_had: 800,
-    variants_had: 178,
-}
-const DisplayProfile = () => {
+const DisplayProfile = ({profile}) => {
     const {name,typeofprofile,gens,variants,gens_had,variants_had} = profile
     return (
         <div className='profile-container'> 
