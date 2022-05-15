@@ -28,41 +28,41 @@ const DisplayProfile = () => {
             to discover the misteries of your genome. For details about all packages we offer, <strong>click here.</strong>
             </p>
             <div className="Achievements-container">
-            <div class="row">
-                <div class="col">
+            <div className="row">
+                <div className="col">
                     Achievements
                 </div>
-                <div class="col">
-                    <button type="button">more</button>
+                <div className="col">
+                    <button type="button" className="btn btn-outline-warning">more</button>
                 </div>
             </div>   
-            </div>     
-            <div class="row">
-                <div class="col">
-                    Coming soon
+            <div className="row">
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-                <div class="col">
-                    Coming soon
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-                <div class="col">
-                    Coming soon
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-                <div class="col">
-                    Coming soon
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-                <div class="col">
-                    Coming soon
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-                <div class="col">
-                    Coming soon
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-                <div class="col">
-                    Coming soon
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-                <div class="col">
-                    Coming soon
+                <div className="col">
+                    <button type="button" className="btn btn-outline-primary btn-circle">coming soon</button>
                 </div>
-            </div>   
+            </div>
+            </div>
         </div>
     )
 }
