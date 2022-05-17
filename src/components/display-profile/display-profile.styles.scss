@@ -1,6 +1,8 @@
 .profile-container {
     // display: flex;
-    width: 720px;
+    // flex-wrap: nowrap;
+    // flex-direction: column;
+    width: 70%;
     .Hi-name {
         font-size: 48px;
     }
@@ -19,7 +21,10 @@
         font-size: 16px;
     }
     .Achievements-container{
+        
         .row:first-child{
+            display:flex;
+            flex-wrap: nowrap;
             padding-bottom: 31px;
         .col:first-child{
             text-align: left;
@@ -42,6 +47,8 @@
         }
     }
         .row:last-child{
+            display: flex;
+            flex-wrap: nowrap;
             .btn-circle {
                 width: 68px;
                 height: 68px;

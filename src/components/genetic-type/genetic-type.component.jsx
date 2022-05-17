@@ -1,5 +1,5 @@
 import './genetic-type.styles.scss'
-import PeopleLogo from '../../assets/client.svg'
+import PeopleLogo from '../../assets/avatar.svg'
 
 const GeneticType = ({profile}) => {
     const {age} = profile;

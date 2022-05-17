@@ -1,0 +1,11 @@
+.search-filter-bar-container {
+    display: flex;
+    flex-direction: row;
+    .filter-field{
+        padding-left: 2%;
+    }
+    .search-field-container{
+        float: right;
+        // position: fixed;
+    }
+}
