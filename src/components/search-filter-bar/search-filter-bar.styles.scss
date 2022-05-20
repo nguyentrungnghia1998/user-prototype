@@ -1,11 +1,29 @@
+// .search-filter-bar-container {
+//     display: flex;
+//     flex-direction: row;
+//     .filter-field{
+//         padding-left: 2%;
+//     }
+//     .search-field-container {
+//         position: relative;
+//         float: right;
+//     }
+    // .search-field-container{
+    //     float: right;
+    //     // position: fixed;
+    // }
+
 .search-filter-bar-container {
-    display: flex;
+    display:flex;
     flex-direction: row;
-    .filter-field{
-        padding-left: 2%;
+    .row.justify-content-between {
+        width: 100%;
+        .search-field{
+            float: right;
+            position: relative;
+        }
     }
-    .search-field-container{
-        float: right;
-        // position: fixed;
+    .sort-and-filter {
+        display: flex;
     }
 }
