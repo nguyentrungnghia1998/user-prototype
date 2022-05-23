@@ -5,7 +5,7 @@ const GeneticType = ({profile}) => {
     const {age} = profile;
     return (
         <div className = "genetic-type-container ">
-            <div className='age'>
+            {/* <div className='age'>
                 {age}
             </div>
             <div className='logo'>
@@ -13,7 +13,7 @@ const GeneticType = ({profile}) => {
             </div>
             <div className='genetic-type'>
                 Genetic Type
-            </div>
+            </div> */}
         </div>
     )
 }
