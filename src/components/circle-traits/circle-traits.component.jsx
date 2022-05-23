@@ -1,6 +1,6 @@
 import './circle-traits.styles.scss'
 import BubbleChart from '@weknow/react-bubble-chart-d3';
-import ErrorBoundary from './ErrorBoundary';
+// import ErrorBoundary from './ErrorBoundary';
 const bubbleClick = (label) =>{
   console.log("Custom bubble click func")
 }
