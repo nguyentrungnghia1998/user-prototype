@@ -1,11 +1,23 @@
 .search-filter-bar-container {
-    display: flex;
-    flex-direction: row;
-    .filter-field{
-        padding-left: 2%;
+    .col:first-child{
+        display: flex;
+        .filter-field {
+            padding-left: 5%;
+        }
     }
     .search-field-container{
+    .search-field {
         float: right;
-        // position: fixed;
+        position: relative;
+        border-radius: 10px;
+        // z-index: 0;
     }
+    #icon {
+        float: right;
+        position: relative;
+        // padding-right: 1px;
+        // margin-right: 23%;
+        // z-index: 1;
+    }
+}
 }
